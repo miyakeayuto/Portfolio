@@ -49,6 +49,17 @@ div.career{
 div.career p{
     font-size: 1.2em;
 }
+div.skill {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+div.skill p {
+    font-size: 1.2em;
+}
 div.qualification {
     display: flex;
     flex-direction: row;
