@@ -114,28 +114,40 @@ footer {
     border-left: none;
     border-right: none;
 }
+
 div.footertext {
     margin: 20px 30px;
     display: flex;
     flex-direction: row;
 }
-div.imgs {
+
+div.img {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
-div.footerimg img{
+
+div.footerimg img {
     width: 40%;
     height: 40px;
     margin: 20px;
 }
+
 div.tel {
+    margin-left: 50px;
     padding: 30px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
+
 div.mail {
     padding: 30px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
+
+div.github {
+    padding: 20px;
+    margin-right: 150px;
+}
+
 div.sns {
     padding: 30px
 }

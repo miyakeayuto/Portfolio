@@ -88,7 +88,7 @@ div.footertext {
     display: flex;
     flex-direction: row;
 }
-div.imgs {
+div.img {
     display: flex;
     flex-direction:row;
 }
@@ -98,12 +98,17 @@ div.footerimg img{
     margin: 20px;
 }
 div.tel {
+    margin-left: 50px;
     padding: 30px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 div.mail {
     padding: 30px;
-    margin-right: 200px;
+    margin-right: 150px;
+}
+div.github {
+    padding: 20px;
+    margin-right: 150px;
 }
 div.sns {
     padding: 30px
