@@ -60,6 +60,16 @@ div.skill {
 div.skill p {
     font-size: 1.2em;
 }
+div.skill_imgs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+}
+div.skill img {
+    width: 70%;
+    height: 70px;
+    margin: 40px;
+}
 div.qualification {
     display: flex;
     flex-direction: row;
@@ -69,6 +79,18 @@ div.qualification {
     border-right: none;
 }
 div.qualification p{
+    font-size: 1.2em;
+}
+div.active {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+div.active p {
     font-size: 1.2em;
 }
 div.hobbies-skills {
